@@ -1,0 +1,54 @@
+[
+    {
+        "connection": [
+            {
+                "key_": "container_name",
+                "value_": "container_name"
+            },
+            {
+                "key_": "account_key",
+                "value_": "account_key"
+            },
+            {
+                "key_": "mount_name",
+                "value_": "mount_name"
+            },
+            {
+                "key_": "tenant_id",
+                "value_": "tenant_id"
+            },
+            {
+                "key_": "account_name",
+                "value_": "account_name"
+            },
+            {
+                "key_": "file_type",
+                "value_": "csv"
+            }
+        ],
+
+  "table": {
+      "src_type": "File System",
+      "ingestion_id": 401,
+      "ingestion_mode": "Snapshot",
+      "tbl_id": -411,
+      "source_type": "ADLS Gen2",
+      "sdb_id": -211,
+      "db_name": "Azure Storage Account Name",
+      "schema_name": "registration",
+      "table_name": "be",
+      "history_table_name": "None",
+      "freq": "Daily",
+      "file_type": "csv",
+      "file_reader": "csv",
+      "delimeter": ",",
+      "multi_line": "False",
+      "database_name": "manual_upload",
+      "schema_file_path": "None",
+      "zone_target" : "",
+      "zone_path": "",
+      "primary_keys": "None",
+      "audit_column": "None"
+      }
+    }
+]

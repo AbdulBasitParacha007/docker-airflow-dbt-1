@@ -1,0 +1,37 @@
+[
+    {
+        "connection": [
+            {
+                "key_": "Driver", 
+                "value_": "org.postgresql.Driver"
+            },
+            {
+                "key_": "Username",
+                "value_": "readonly"
+            },
+            {
+                "key_": "Password",
+                "value_": "readonly"
+            },
+            {
+                "key_": "ConnectionUrl",
+                "value_": "jdbc:postgresql://10.152.44.85:5432/hercules_prod"
+            }
+        ],
+
+  "table": {
+      "ingestion_id": 201,
+      "ingestion_mode": "Column based delta",
+      "tbl_id": 85,
+      "source_type": "PostgresDB",
+      "sdb_id": 1,
+      "db_name": "Hercules_Prod",
+      "schema_name": "public",
+      "table_name": "rework_history",
+      "history_table_name": "None",
+      "freq": "Daily",
+      "audit_col": "updated_on",
+      "primary_key_columns": "id"
+        }
+    }
+]
