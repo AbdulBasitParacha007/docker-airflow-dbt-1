@@ -4,4 +4,4 @@ pyodbc==4.0.32
 configparser==3.5.3
 psycopg2-binary==2.9.2
 azure-servicebus==7.4.0
-azure-storage-blob==12.9.0
+azure-storage-blob==12.13.0
